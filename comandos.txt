@@ -1,0 +1,39 @@
+COMANDOS DO LINUX
+
+
+atualizar distro
+
+sudo apt update
+
+instalando o pg
+
+sudo apt intell postgresql 
+
+validando o serviço
+
+sudo systemctl status postgresql
+
+instalando o pgadmin
+sudo apt install pgadmin4 -y
+
+instalando o vs code
+
+sudo install code
+
+verificando a versão do pg_dump 
+
+pg_dump --version
+
+  instalando o pg_agent
+
+add o repo
+curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/pgadmin-keyring.gpg
+
+instalando o pg_agent
+sudo apt install pgagent -y
+
+
+  links:
+postgresql linux: https://www.postgresql.org/download/linux/ubuntu/
+pgadmin: https://www.pgadmin.org/download/
+vs code: https://code.visualstudio.com/download
